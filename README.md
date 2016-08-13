@@ -10,3 +10,7 @@ sudo chmod +x auto.sh
 cd build
 ./DisplayImage ../test.jpg
 ```
+
+# Using Qt
+Edit testopencvinstall.pro to set your own OpenCV path.
+

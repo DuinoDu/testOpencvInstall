@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(DisplayImage)
 
+SET(CMAKE_MODULE_PATH "H:\0-Bak_software_data\OpenCV\build")
 find_package( OpenCV REQUIRED )
 
 #find_package(PkgConfig)
