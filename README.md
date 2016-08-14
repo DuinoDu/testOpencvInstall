@@ -1,7 +1,7 @@
 # Test Opencv Installation
 Hello world demo for testing whether opencv is installed successfully on Ubuntu.
 
-# Build
+# Using CMake in Ubuntu
 ```
 git clone https://github.com/DuinoDu/testOpencvInstall.git
 cd testOpencvInstall
@@ -11,6 +11,7 @@ cd build
 ./DisplayImage ../test.jpg
 ```
 
-# Using Qt
-Edit testopencvinstall.pro to set your own OpenCV path.
+# Using Qt in Windows
+Edit **testopencvinstall.pro** to set your own OpenCV path.
 
+Besides, make sure you have add OpenCV dll path to Windows environment $PATH. It is important.

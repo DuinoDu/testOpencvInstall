@@ -11,8 +11,8 @@ SOURCES += DisplayImage.cpp
 
 #configuration variables
 
-PATH_OPENCV_INCLUDE   = "E:\OpenCV\build\include" # include file
-PATH_OPENCV_LIBRARIES = "E:\OpenCV\build\x64\vc12\bin" # containing *.dll
+PATH_OPENCV_INCLUDE   = "E:\OpenCV\build\include"
+PATH_OPENCV_LIBRARIES = "E:\OpenCV\build\x64\vc12\lib"
 VERSION_OPENCV        = 249
 
 #include and build
