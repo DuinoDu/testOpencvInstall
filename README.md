@@ -15,3 +15,7 @@ cd build
 Edit **testopencvinstall.pro** to set your own OpenCV path.
 
 Besides, make sure you have add OpenCV dll path to Windows environment $PATH. It is important.
+
+# Using Qt in Ubuntu
+
+Edit **testopencvinstall.pro** to set your own OpenCV path.
