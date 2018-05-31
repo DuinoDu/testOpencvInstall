@@ -3,4 +3,4 @@ cd build
 rm * -rf
 cmake ..
 make
-cd ..
+./DisplayImage ../test.jpg

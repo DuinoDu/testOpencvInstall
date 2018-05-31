@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(DisplayImage)
 
 find_package( OpenCV REQUIRED )
+add_compile_options(-std=c++11)
 
 #find_package(PkgConfig)
 #pkg_check_modules(OpenCV REQUIRED opencv>=2.4.9)
