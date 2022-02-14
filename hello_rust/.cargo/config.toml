@@ -1,0 +1,9 @@
+[build]
+# target = "aarch64-unknown-linux-gnu"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "aarch64-linux-gnu-gcc"
+rustflags = ["-L", "dependency=/home/duino/opt/aarch64_target/lib"]
+
+[alias]
+build-aarch64 = "build --target=aarch64-unknown-linux-gnu"
