@@ -7,7 +7,7 @@ TARGET = testopencvinstall
 INCLUDEPATH += .
 
 # Input
-SOURCES += DisplayImage.cpp
+SOURCES += src/DisplayImage.cpp
 
 #configuration variables
 

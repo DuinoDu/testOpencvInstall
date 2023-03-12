@@ -11,5 +11,5 @@ add_compile_options(-std=c++11)
 #LINK_DIRECTORIES(${OpenCV_LIBDIR}) 
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-add_executable( DisplayImage DisplayImage.cpp)
+add_executable( DisplayImage src/DisplayImage.cpp)
 target_link_libraries( DisplayImage ${OpenCV_LIBS})

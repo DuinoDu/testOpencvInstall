@@ -1,2 +1,12 @@
-build/
 hello_rust/target
+
+# Xmake cache
+.xmake/
+build/
+
+# MacOS Cache
+.DS_Store
+
+# vim
+*.swp
+*.swo
